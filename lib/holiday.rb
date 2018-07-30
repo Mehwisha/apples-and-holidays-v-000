@@ -22,7 +22,7 @@ def second_supply_for_fourth_of_july(holiday_hash)
     summer.each do|h,v|
        puts "#{h}: #{v}"
 end
-summer.value[1]
+summer.values[1]
 end
 end
 

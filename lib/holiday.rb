@@ -19,7 +19,7 @@ def second_supply_for_fourth_of_july(holiday_hash)
   # }
   # return the second element in the 4th of July array
   holiday_hash.each do |h, v|
-  puts "#{h}: #{v[1]}"
+  puts "#{h}: #{v.values[1]}"
 end
 end
 

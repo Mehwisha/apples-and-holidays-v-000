@@ -18,8 +18,11 @@ def second_supply_for_fourth_of_july(holiday_hash)
   #   }
   # }
   # return the second element in the 4th of July array
-  holiday_hash.each do |h, v|
-  puts "#{h}: #{v.values[1]}"
+  holiday_hash.each do |summer|
+    summer.each do|h,v|
+       puts "#{h}: #{v}"
+end
+summer.value[1]
 end
 end
 
